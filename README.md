@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/EdenX-97/chat-tools"><img src="https://raw.githubusercontent.com/EdenX-97/chat-tools/main/static/logo.png" alt="chattools" width="200"></a>
+  <a href="https://github.com/EdenX-97/chat-tools"><img src="https://raw.githubusercontent.com/EdenX-97/chat-tools/main/assets/logo.png" alt="chattools" width="200"></a>
   <br>
   Chat Tools
   <br>

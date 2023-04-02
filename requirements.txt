@@ -1,0 +1,14 @@
+gradio
+openai
+mdtex2html
+pypinyin
+tiktoken
+socksio
+tqdm
+colorama
+duckduckgo_search
+Pygments
+llama_index
+langchain
+markdown
+PyPDF2

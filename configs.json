@@ -1,0 +1,56 @@
+{
+    "title": "Chat Tools",
+    "description": "Access the latest version on [GitHub](https://github.com/)",
+    "user_limit": 100,
+    "tokens_calculate": {
+        "gpt-3.5-turbo": {
+            "tokens_per_message": 4,
+            "tokens_per_name": -1
+        },
+        "gpt-4": {
+            "tokens_per_message": 3,
+            "tokens_per_name": -1
+        }
+    },
+    "models": [
+        "gpt-3.5-turbo"
+    ],
+    "ai_roles": {
+        "Useful": [
+            "Default Chat",
+            "Translator",
+            "Prompt Generator",
+            "Title Generator",
+            "Midjourney Prompt Generator",
+            "Domain Generator"
+        ],
+        "Academic": [
+            "Writing Tutor",
+            "Essay Writer",
+            "Proofreader"
+        ],
+        "Develop": [
+            "Comments Generator",
+            "Technology Instructor",
+            "Regex Generator"
+        ],
+        "Fun": [
+            "Unconstrained AI model DAN",
+            "Friend",
+            "Rapper",
+            "Adventure Game",
+            "Dream Interpreter",
+            "Lunatic",
+            "Socrat",
+            "Astrologer",
+            "Ascii Artist",
+            "Biblical Translator",
+            "Emoji Translator",
+            "New Language Creator",
+            "Spongebob's Magic Conch Shell",
+            "Drunk Person",
+            "Buddha",
+            "Muslim Imam"
+        ]
+    }
+}

@@ -21,7 +21,7 @@
   </a>
 </p>
 
-![screenshot](https://raw.githubusercontent.com/EdenX-97/chat-tools/main/static/chat-tools.gif)
+![screenshot](https://raw.githubusercontent.com/EdenX-97/chat-tools/main/assets/chat-tools.gif)
 
 ## Key Features
 

@@ -33,7 +33,9 @@
 - Online search
 - Documents search
 
-## How To Use
+## How To Install
+
+### Download
 
 To clone and run this application, you'll need [Git](https://git-scm.com), [Python](https://www.python.org/downloads/) (Suggest version 3.9.0+) and [Firefox - ESR](https://www.mozilla.org/en-US/firefox/enterprise/#download) installed on your computer. From your command line:
 
@@ -48,7 +50,18 @@ $ cd chat-tools
 $ pip3 install -r requirements.txt
 ```
 
-Set up your [OpenAI API Key](https://platform.openai.com/account/api-keys) in /.streamlit/secrets.toml
+
+### Set up
+
+You have 3 ways to set up the [OpenAI API Key](https://platform.openai.com/account/api-keys):
+
+1. Create a file named `openai_api_key.txt` in the root directory and paste your api-key in it.
+2. Run the app, enable professional mode and paste your api-key in the input space.
+3. If you use [Hugging Face](https://huggingface.co/), you can set up your api-key in your *Space - Settings - Repository secrets - New secret*
+    - Name: OPENAI_API_KEY
+    - Secret value: your openai api key
+
+### Run
 
 ```bash
 # Run the app

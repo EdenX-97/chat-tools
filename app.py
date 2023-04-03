@@ -171,7 +171,7 @@ with gr.Blocks(css=style, theme=theme) as app:
         fn=fun_mode, inputs=configs, outputs=selected_ai_role
     )
 
-    selected_ai_role.change(update_ai_role, inputs=[selected_ai_role], outputs=[
+    selected_ai_role.change(update_ai_role, inputs=[], outputs=[
                             chatbot, history, status_display])
 
     user_input.submit(**start_responsing_args).then(**

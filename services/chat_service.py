@@ -127,7 +127,6 @@ def chat(
 
     # Check if token num over the limit
     predict_tokens = calculate_tokens_messages(history, selected_model)
-    print(predict_tokens)
     if predict_tokens > 3800:
         # Need to optimize the token num
         logging.info("Optimize the token num")

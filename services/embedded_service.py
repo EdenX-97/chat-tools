@@ -3,7 +3,7 @@ import logging
 import datetime
 import gradio as gr
 from llama_index import (
-    GPTSimpleVectorIndex,
+    GPTVectorStoreIndex,
     LLMPredictor,
     SimpleDirectoryReader,
     PromptHelper,
@@ -64,7 +64,7 @@ def create_index(user_api_key,
         documents_loaded = SimpleDirectoryReader(
             input_files=documents_url).load_data()
 
-        index = GPTSimpleVectorIndex.from_documents(
+        index = GPTVectorStoreIndex.from_documents(
             documents=documents_loaded, service_context=service_context)
 
         os.environ["OPENAI_API_KEY"] = ""
@@ -100,7 +100,7 @@ def query(user_api_key,
     question_answer_prompt = QuestionAnswerPrompt(PROMPT_TEMPLATE.replace(
         "{current_date}", datetime.datetime.today().strftime("%Y-%m-%d")))
 
-    index = GPTSimpleVectorIndex.load_from_disk(
+    index = GPTVectorStoreIndex.load_from_disk(
         index_file.name, service_context=service_context)
 
     response = index.query(query, similarity_top_k=1,

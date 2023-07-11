@@ -23,6 +23,8 @@
 
 ![screenshot](https://raw.githubusercontent.com/EdenX-97/chat-tools/main/assets/chat-tools.gif)
 
+### View a [live website here.](https://huggingface.co/spaces/EdenX-97/ChatTools)
+
 ## Key Features
 
 - Based on gpt-api
@@ -30,8 +32,8 @@
 - Automatic summarization
 - Save chat history
 - Predefined tools (most from [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts))
-- Online search
-- Documents search
+- Online search with reference
+- Documents search with reference
 
 ## How To Install
 
